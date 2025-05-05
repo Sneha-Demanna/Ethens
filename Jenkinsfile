@@ -12,7 +12,7 @@ pipeline{
                               {
 
                               Steps {
-                                         sleep 60
+                                         sleep 45
                                          }
                               }
                    Stage "Deploy"
