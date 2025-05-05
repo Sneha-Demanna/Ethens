@@ -2,20 +2,20 @@ pipeline{
       agent any
       stages
                 {
-                   Stage "Build"
+                   Stage('Build')
                              {
                               Steps {
                                           echo 'hello 1'
                                          }
                               }
-                   Stage "Test"
+                   Stage('Test')
                               {
 
                               Steps {
                                          sleep 45
                                          }
                               }
-                   Stage "Deploy"
+                   Stage('Deploy')
                               {
 
                               Steps {
